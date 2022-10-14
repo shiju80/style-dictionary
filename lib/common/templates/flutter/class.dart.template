@@ -15,7 +15,7 @@
 //
 <%= fileHeader({file, commentStyle: 'short'}) %>
 
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 class <%= file.className %> {
   <%= file.className %>._();
